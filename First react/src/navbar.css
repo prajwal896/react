@@ -1,0 +1,10 @@
+div.navbar ul {
+    display: flex;
+    background-color: blue;
+}
+
+div.navbar ul li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
