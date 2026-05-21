@@ -1,0 +1,12 @@
+div.card ul {
+    display: flex;
+    background-color: beige;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+}
