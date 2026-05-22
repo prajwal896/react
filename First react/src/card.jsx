@@ -1,15 +1,14 @@
 import React from 'react'
 import './card.css'
 
-const Card = () => {
-
-    return (
+const Card = (props) => {
+return (
     <div className="card">
     <ul>
-        <li style={{paddingRight: '10vh'}}>userid</li>
-        <li style={{paddingRight: '10vh'}}>id</li>
-        <li style={{paddingRight: '50vh'}}>title</li>
-        <li style={{paddingRight: '50vh'}}>body</li>
+        <li>{props.uid}</li>
+        <li>{props.id}</li>
+        <li>{props.title}</li>
+        <li>{props.body}</li>
     </ul>
     </div>
 )
